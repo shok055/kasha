@@ -1,0 +1,1380 @@
+--- Error: 2015-06-07 19:37:08 ---
+
+Text notification:
+	subject: E_PARSE: syntax error, unexpected '[' at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_PARSE: syntax error, unexpected '['
+at Z:\home\kasha\www\src\menu.php on line 8
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "52447",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433702228,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 19:38:48 ---
+
+Text notification:
+	subject: E_NOTICE: Undefined variable: namber at Z:\home\kasha\www\tpl\menu.php on line 65
+	//www.kasha/menu
+E_NOTICE: Undefined variable: namber
+at Z:\home\kasha\www\tpl\menu.php on line 65
+
+TRACE:
+    #0  require(Z:\home\kasha\www\tpl\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "52475",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433702328,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 19:38:48 ---
+
+Text notification:
+	subject: E_NOTICE: Undefined variable: namber at Z:\home\kasha\www\tpl\menu.php on line 65
+	//www.kasha/menu
+E_NOTICE: Undefined variable: namber
+at Z:\home\kasha\www\tpl\menu.php on line 65
+
+TRACE:
+    #0  require(Z:\home\kasha\www\tpl\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "52475",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433702328,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 19:38:48 ---
+
+Text notification:
+	subject: E_NOTICE: Undefined variable: namber at Z:\home\kasha\www\tpl\menu.php on line 65
+	//www.kasha/menu
+E_NOTICE: Undefined variable: namber
+at Z:\home\kasha\www\tpl\menu.php on line 65
+
+TRACE:
+    #0  require(Z:\home\kasha\www\tpl\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "52475",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433702328,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 19:38:48 ---
+
+Text notification:
+	subject: E_NOTICE: Undefined variable: namber at Z:\home\kasha\www\tpl\menu.php on line 65
+	//www.kasha/menu
+E_NOTICE: Undefined variable: namber
+at Z:\home\kasha\www\tpl\menu.php on line 65
+
+TRACE:
+    #0  require(Z:\home\kasha\www\tpl\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "52475",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433702328,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 19:38:48 ---
+
+Text notification:
+	subject: E_NOTICE: Undefined variable: namber at Z:\home\kasha\www\tpl\menu.php on line 65
+	//www.kasha/menu
+E_NOTICE: Undefined variable: namber
+at Z:\home\kasha\www\tpl\menu.php on line 65
+
+TRACE:
+    #0  require(Z:\home\kasha\www\tpl\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "52475",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433702328,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 19:38:48 ---
+
+Text notification:
+	subject: E_NOTICE: Undefined variable: namber at Z:\home\kasha\www\tpl\menu.php on line 65
+	//www.kasha/menu
+E_NOTICE: Undefined variable: namber
+at Z:\home\kasha\www\tpl\menu.php on line 65
+
+TRACE:
+    #0  require(Z:\home\kasha\www\tpl\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "52475",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433702328,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:23:22 ---
+
+Text notification:
+	subject: E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel' at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel'
+at Z:\home\kasha\www\src\menu.php on line 8
+
+TRACE:
+    #0  require(Z:\home\kasha\www\src\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53170",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705001,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:23:23 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 8
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53170",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705001,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:24:50 ---
+
+Text notification:
+	subject: E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel' at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel'
+at Z:\home\kasha\www\src\menu.php on line 8
+
+TRACE:
+    #0  require(Z:\home\kasha\www\src\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53198",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705089,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:24:50 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 8
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53198",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705089,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:24:52 ---
+
+Text notification:
+	subject: E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel' at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel'
+at Z:\home\kasha\www\src\menu.php on line 8
+
+TRACE:
+    #0  require(Z:\home\kasha\www\src\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53198",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705091,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:24:52 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 8
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53198",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705091,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:26:11 ---
+
+Text notification:
+	subject: E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel' at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_NOTICE: Use of undefined constant DishModel - assumed 'DishModel'
+at Z:\home\kasha\www\src\menu.php on line 8
+
+TRACE:
+    #0  require(Z:\home\kasha\www\src\menu.php) called at [Z:\home\kasha\www\core\func\main.php:69]
+    #1  IncludeCom(menu) called at [Z:\home\kasha\www\index.php:21]
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53230",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705170,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:26:11 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 8
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 8
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53230",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705170,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:36:51 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 9
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 9
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53403",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705810,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:36:52 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 9
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 9
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53403",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705811,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:39:30 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 9
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 9
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53443",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705969,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:39:32 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function getList() at Z:\home\kasha\www\src\menu.php on line 9
+	//www.kasha/menu
+E_ERROR: Call to undefined function getList()
+at Z:\home\kasha\www\src\menu.php on line 9
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53443",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433705971,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-07 20:50:04 ---
+
+Text notification:
+	subject: E_ERROR: Call to undefined function GetList() at Z:\home\kasha\www\src\menu.php on line 9
+	//www.kasha/menu
+E_ERROR: Call to undefined function GetList()
+at Z:\home\kasha\www\src\menu.php on line 9
+
+SERVER:
+    array(
+        "REDIRECT_STATUS" => "200",
+        "HTTP_HOST" => "www.kasha",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_CACHE_CONTROL" => "max-age=0",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://www.kasha/",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4",
+        "PATH" => "\usr\local\ImageMagick;\usr\local\php5;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\",
+        "SystemRoot" => "C:\Windows",
+        "COMSPEC" => "C:\Windows\system32\cmd.exe",
+        "PATHEXT" => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "WINDIR" => "C:\Windows",
+        "SERVER_SIGNATURE" => "<address>Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13 Server at www.kasha Port 80</address>
+    ",
+        "SERVER_SOFTWARE" => "Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/1.0.1c PHP/5.3.13",
+        "SERVER_NAME" => "www.kasha",
+        "SERVER_ADDR" => "127.0.0.1",
+        "SERVER_PORT" => "80",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "DOCUMENT_ROOT" => "Z:/home/kasha/www",
+        "SERVER_ADMIN" => "admin@example.com",
+        "SCRIPT_FILENAME" => "Z:/home/kasha/www/index.php",
+        "REMOTE_PORT" => "53611",
+        "REDIRECT_QUERY_STRING" => "q=menu",
+        "REDIRECT_URL" => "/menu",
+        "GATEWAY_INTERFACE" => "CGI/1.1",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "REQUEST_METHOD" => "GET",
+        "QUERY_STRING" => "q=menu",
+        "REQUEST_URI" => "/menu",
+        "SCRIPT_NAME" => "/index.php",
+        "PHP_SELF" => "/index.php",
+        "REQUEST_TIME" => 1433706603,
+        "argv" => array(
+            0 => "q=menu",
+        ),
+        "argc" => 1,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "q" => "menu",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
