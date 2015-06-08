@@ -35,4 +35,3 @@ foreach($allIngridients as $itm){
 
 //var_dump($ingredients);
 //$ingredients = $ingredientsModel.getForDish();
-А можно в скайп?
