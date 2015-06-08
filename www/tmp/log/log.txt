@@ -10812,3 +10812,687 @@ POST:
 
 ------------------------------------
 
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(1, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(2, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(3, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(4, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(5, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(6, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(7, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(8, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(9, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(10, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(11, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+
+--- Error: 2015-06-08 23:30:09 ---
+
+Text notification:
+	subject: E_WARNING: in_array() expects parameter 2 to be array, boolean given at /Users/dreg/kasha/www/src/dish.php on line 29
+	E_WARNING: in_array() expects parameter 2 to be array, boolean given
+at /Users/dreg/kasha/www/src/dish.php on line 29
+
+TRACE:
+    #0  in_array(12, ) called at [/Users/dreg/kasha/www/src/dish.php:29]
+    #1  require(/Users/dreg/kasha/www/src/dish.php) called at [/Users/dreg/kasha/www/core/func/main.php:69]
+    #2  IncludeCom(dish) called at [/Users/dreg/kasha/www/index.php:22]
+    #3  require(/Users/dreg/kasha/www/index.php) called at [/Users/dreg/kasha/router.php:15]
+
+SERVER:
+    array(
+        "DOCUMENT_ROOT" => "/Users/dreg/kasha/www",
+        "REMOTE_ADDR" => "127.0.0.1",
+        "REMOTE_PORT" => "49472",
+        "SERVER_SOFTWARE" => "PHP 5.5.14 Development Server",
+        "SERVER_PROTOCOL" => "HTTP/1.1",
+        "SERVER_NAME" => "localhost",
+        "SERVER_PORT" => "9000",
+        "REQUEST_URI" => "/dish?id=3",
+        "REQUEST_METHOD" => "GET",
+        "SCRIPT_NAME" => "/index.php",
+        "SCRIPT_FILENAME" => "/Users/dreg/kasha/www/index.php",
+        "PATH_INFO" => "/dish",
+        "PHP_SELF" => "/index.php/dish",
+        "QUERY_STRING" => "id=3",
+        "HTTP_HOST" => "localhost:9000",
+        "HTTP_CONNECTION" => "keep-alive",
+        "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "HTTP_USER_AGENT" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36",
+        "HTTP_REFERER" => "http://localhost:9000/menu",
+        "HTTP_ACCEPT_ENCODING" => "gzip, deflate, sdch",
+        "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.8,ru;q=0.6",
+        "REQUEST_TIME_FLOAT" => 1433802609.0901,
+        "REQUEST_TIME" => 1433802609,
+    )
+
+COOKIES:
+    array(
+    )
+
+GET:
+    array(
+        "id" => "3",
+        "q" => "dish?id=3",
+    )
+
+POST:
+    array(
+    )
+
+
+------------------------------------
+

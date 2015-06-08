@@ -32,6 +32,11 @@
             margin: 0 auto;
         }
 
+        .dish-image{
+            width: 100%;
+            height: auto;
+        }
+
     </style>
 </head>
 
@@ -43,7 +48,7 @@
         <div class="col-xs-9">
             <div class="row">
                 <div class="col-xs-6">
-                    <div><img src="<?= $dish->img_url ?>"></div>
+                    <img  class="dish-image" src="<?= $dish->img_url ?>">
                 </div>
                 <div class="col-xs-6 padding">
                     <p><h3><?= $dish->name ?></h3></p>
@@ -59,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <div><img src="Пунктир_2.jpg"></div>
+                    <div><img src="<?= Root('i/image/Dash_2.jpg')?>"></div>
                 </div>
             </div>
         </div>
@@ -69,7 +74,7 @@
             <?php foreach( $hasIngredients as $key => $ingredient ): ?>
                 <div><button type="button" class="btn btn-custom"><?=$ingredient['name']?></button></div>
             <?php endforeach ?>
-            <div><img src="Пунктир.jpg"></div>
+            <div><img src="<?= Root('i/image/Dash.jpg')?>"></div>
             <div><font size="4" face="Comic Sans MS">Время приготовления :</div>
             <div class="progress">
                 <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
@@ -90,7 +95,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-4">
-                    <div><img src="square_2.jpg"></div>
+                    <div><img src="<?= Root('i/image/square_2.jpg')?>"></div>
                 </div>
                 <div class="col-xs-8 padding">
                     <p><h3>Шаг 1</h3></p>
@@ -98,7 +103,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-4 padding">
-                    <div><img src="square_2.jpg"></div>
+                    <div><img src="<?= Root('i/image/square_2.jpg')?>"></div>
                 </div>
                 <div class="col-xs-8 padding">
                     <p><h3>Шаг 2</h3></p>
@@ -106,7 +111,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-4 padding">
-                    <div><img src="square_2.jpg"></div>
+                    <div><img src="<?= Root('i/image/square_2.jpg')?>"></div>
                 </div>
                 <div class="col-xs-8 padding">
                     <p><h3>Шаг 3</h3></p>
@@ -116,7 +121,7 @@
         <div class="row">
             <div class="col-xs-3"></div>
             <div class="col-xs-9">
-                <div><img src="Пунктир_2.jpg"></div>
+                <div><img src="<?= Root('i/image/Dash_2.jpg')?>"></div>
             </div>
         </div>
     </div>

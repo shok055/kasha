@@ -26,7 +26,7 @@ foreach($allIngridients as $itm){
     if( array_key_exists($itm['id'],$ids) ){
         array_push($ingredients,$itm);
     }
-    if( in_array($itm['id'], $ihave) ){
+    if( $ihave and in_array($itm['id'], $ihave) ){
         array_push($hasIngredients,$itm);
     }
 }

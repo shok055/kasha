@@ -56,14 +56,20 @@
                 <?php foreach($items as $number => $item): ?>
                     <div class="col-xs-4">
                         <div class="thumbnail menu-item">
-                            <a href="dish?id=<?= $item['id'] ?>"><img src="<?= Root('i/image/Grey.jpg')?>"></a>
+                            <a href="dish?id=<?= $item['id'] ?>">
+                                <?php if($item['img_url']): ?>
+                                    <img src="<?= $item['img_url']?>">
+                                <?php else: ?>
+                                    <img src="<?= Root('i/image/Grey.jpg')?>">
+                                <?php endif; ?>
+                            </a>
                             <div class="caption">
                                 <h3><?= $item['name'] ?> №<?= $number ?></h3>
                                 <p class="btn btn-custom" role="button">5 мин</p>
                             </div>
                         </div>
                     </div>
-                <?php endforeach ?>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
