@@ -42,6 +42,7 @@ class DbSimple_Mysql extends DbSimple_Generic_Database
             $p['pass'],
             true
         );
+
         $this->_resetLastError();
         if (!$ok) return $this->_setDbError('mysql_connect()');
         $ok = @mysql_select_db(preg_replace('{^/}s', '', $p['path']), $this->link);
@@ -187,7 +188,7 @@ class DbSimple_Mysql extends DbSimple_Generic_Database
 		}
 		else
 		{
-			return $this->_setLastError(mysql_errno(), mysql_error(), $query);
+            return $this->_setLastError(mysql_errno(), mysql_error(), $query);
 		}
     }
     

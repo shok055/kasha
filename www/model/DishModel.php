@@ -23,13 +23,13 @@ class DishModel extends Model
             $this->table);
     }
 
-    public function GetList()
+    public function getList()
     {
 
         return $this->db->select("SELECT * FROM ?#", $this->table);
     }
 
-    public function Total($showHidden = false)
+    public function Total()
     {
         return $this->db->selectCell("SELECT COUNT(*) FROM ?#", $this->table);
     }

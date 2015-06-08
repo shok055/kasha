@@ -16,6 +16,7 @@
 
     require_once BASEPATH . 'core/core.php';
 
+
     ob_start();
         header(Php::Status(200));
         $g_config['isControllerLoad'] = IncludeCom(GetQuery());

@@ -5,6 +5,6 @@
  * Date: 07.06.2015
  * Time: 21:27
  */
-$dm=new DishModel();
-$items=$dm.GetList();
-//$items=array("Борщ", "Солома", "Гречка", "Трюфеля", "Фуагра", "Сыр");
+$dishModel = new DishModel();
+
+$items = $dishModel->getList();

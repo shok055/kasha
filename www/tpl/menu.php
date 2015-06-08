@@ -57,17 +57,17 @@
         </div>
         <div class="col-xs-8">
             <div class="row">
-                <? foreach($items as $number=>$name) {?>
+                <?php foreach($items as $number => $item): ?>
                     <div class="col-xs-4">
                         <div class="thumbnail menu-item">
-                            <a href="index3.html"><img src="<?= Root('i/image/Grey.jpg')?>"></a>
+                            <a href="dish/<?= $item['id'] ?>"><img src="<?= Root('i/image/Grey.jpg')?>"></a>
                             <div class="caption">
-                                <h3><?= $name ?> №<?=$number ?></h3>
+                                <h3><?= $item['name'] ?> №<?= $number ?></h3>
                                 <p class="btn btn-custom" role="button">5 мин</p>
                             </div>
                         </div>
                     </div>
-                <? } ?>
+                <?php endforeach ?>
             </div>
         </div>
     </div>

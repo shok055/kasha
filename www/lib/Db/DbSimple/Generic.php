@@ -82,15 +82,19 @@ class DbSimple_Generic
      * Universal static function to connect ANY database using DSN syntax.
      * Choose database driver according to DSN. Return new instance
      * of this driver.
+     * @param $dsn
+     * @return
      */
     static function& connect($dsn)
     {
+
         // Load database driver and create its instance.
         $parsed = DbSimple_Generic::parseDSN($dsn);
         if (!$parsed) {
             $dummy = null;
             return $dummy;
         }
+
         $class = 'DbSimple_'.ucfirst($parsed['scheme']);
         if (!class_exists($class)) {
             $file = str_replace('_', '/', $class) . ".php";
@@ -137,6 +141,7 @@ class DbSimple_Generic
 
             }
         }
+
         return $object;
     }
 
@@ -1267,16 +1272,21 @@ class DbSimple_Generic_LastError
      * Handler gets 3 arguments:
      * - error message
      * - full error context information (last query etc.)
+     * @param $handler
+     * @return null
      */
     function setErrorHandler($handler)
     {
+
         $prev = $this->errorHandler;
         $this->errorHandler = $handler;
         // In case of setting first error handler for already existed
         // error - call the handler now (usual after connect()).
+
         if (!$prev && $this->error) {
             call_user_func($this->errorHandler, $this->errmsg, $this->error);
         }
+
         return $prev;
     }
 

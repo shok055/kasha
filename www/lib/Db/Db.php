@@ -19,7 +19,7 @@
 
             if ($info['query'] == "mysql_connect()") // Не подсоединилась к БД
             {
-                exit("Can not connect to database(s)"); // Не работаем дальше с кодом
+                exit($message); // Не работаем дальше с кодом
             }
 
             static $fileLogger = NULL;
@@ -43,6 +43,7 @@
 
             // Подключаем модули для работы с DbSimple (не по подгрузится автолоудером)
             $path = dirname(__FILE__) . '/DbSimple/';
+
             require_once $path . 'Generic.php';
             require_once $path . 'Mysql.php';
             require_once $path . 'Postgresql.php';
@@ -59,17 +60,21 @@
 
                 $o->$db = DbSimple_Generic::connect($dsn);
 
+
                 if ($g_config['dbSimple']['logDbError'])
                 {
+
                     MyDataBaseLog::SetFuncOnError(array(__CLASS__, 'DbSimpleError'));
                     $o->$db->setLogger(array('MyDataBaseLog', 'Log'));
                     $o->$db->setErrorHandler(array('MyDataBaseLog', 'Error'));
+
                 }
 
                 if ($cacheFunc)
                 {
                     $o->$db->setCacher($cacheFunc);
                 }
+
             }
 
             // Регистрируем все базы данных как объект $g_databases
