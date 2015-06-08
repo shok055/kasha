@@ -5,7 +5,7 @@ class IngredientsModel extends Model
     public function __construct($id = NULL, $onlyShow = false)
     {
         global $g_databases;
-        parent::__construct($g_databases->db, 'ingredietns', 'id', $id, $onlyShow);
+        parent::__construct($g_databases->db, 'ingredients', 'id', $id, $onlyShow);
     }
 
     public function CreateTable()

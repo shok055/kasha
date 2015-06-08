@@ -19,10 +19,13 @@ class Dishes_IngredietnsModel extends Model
             $this->table);
     }
 
-    public function getList()
+    public function getList( $dishId = NULL)
     {
-
-        return $this->db->select("SELECT * FROM ?#", $this->table);
+        if($dishId){
+            return $this->db->select("SELECT * FROM ?# WHERE id_dishes=?", $this->table, $dishId);
+        } else {
+            return $this->db->select("SELECT * FROM ?#", $this->table);
+        }
     }
 
     public function Total()

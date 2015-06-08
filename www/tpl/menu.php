@@ -35,10 +35,6 @@
     <link rel="stylesheet" href="<?= Root('i/css/menu-item.css')?>">
 </head>
 
-
-
-
-
 <div class="content">
     <div class="row">
         <div class="col-xs-3"><img src="<?= Root('i/image/Kasha_iz_topora_2.jpg')?>">

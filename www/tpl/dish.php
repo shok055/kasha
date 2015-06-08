@@ -1,5 +1,5 @@
 <head>
-    <title>Блюдо</title>
+    <title>Блюдо <?= $dish->name ?></title>
 
     <style>
         .padding
@@ -36,23 +36,6 @@
 </head>
 
 <div class="content">
-    <?= $dish->name ?>
-    <br>
-
-    <?= $dish->description ?>
-    <br>
-
-    <?= $dish->timeout ?>
-    <br>
-
-    <?= $dish->img_url ?>
-    <br>
-
-    <?= $dish->rate ?>
-    <br>
-
-    <?= $dish->id ?>
-
     <div class="row">
         <div class="col-xs-3"><img src="<?= Root('i/image/Kasha_iz_topora_2.jpg')?>">
             <div class="padding"><font size="6" face="Comic Sans MS">У меня есть :</div>
@@ -66,10 +49,11 @@
                     <p><h3><?= $dish->name ?></h3></p>
                     <p class="btn btn-custom" role="button"><?= $dish->timeout ?> мин</p>
                     <p class="padding"><em><h5>Ингредиенты :<h5></em></p>
-                    <p class="padding"><h5>Курица<h5></p>
-                    <p><h5>Картошка<h5></p>
-                    <p><h5>Помидоры<h5></p>
-                    <p><h5>Зелень<h5></p>
+                    <p class="padding">
+                        <?php foreach( $ingredients as $key => $ingredient ): ?>
+                            <p><h5><?=$ingredient['name']?><h5></p>
+                        <?php endforeach ?>
+                    </p>
                 </div>
 
             </div>
@@ -82,10 +66,9 @@
     </div>
     <div class="row">
         <div class="col-xs-3">
-            <div><button type="button" class="btn btn-custom">Курица</button></div>
-            <div><button type="button" class="btn btn-custom">Картошка</button></div>
-            <div><button type="button" class="btn btn-custom">Помидоры</button></div>
-            <div><button type="button" class="btn btn-custom">Зелень</button></div>
+            <?php foreach( $hasIngredients as $key => $ingredient ): ?>
+                <div><button type="button" class="btn btn-custom"><?=$ingredient['name']?></button></div>
+            <?php endforeach ?>
             <div><img src="Пунктир.jpg"></div>
             <div><font size="4" face="Comic Sans MS">Время приготовления :</div>
             <div class="progress">

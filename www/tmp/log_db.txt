@@ -1,0 +1,415 @@
+--- Error: 2015-06-08 18:46:06 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 18:46:58 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 18:47:21 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 18:47:21 ---
+
+	query: SELECT * FROM `dishes-ingredients` WHERE id_dishes=%s
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%s' at line 1
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 25
+
+
+------------------------------------
+
+--- Error: 2015-06-08 18:49:34 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 18:59:33 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:01:03 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:01:45 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:02:03 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:07:20 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:08:49 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:13:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:13:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:14:10 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:14:30 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:18:01 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:19:31 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:21:39 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:21:57 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:25:14 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:25:39 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:29:58 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:31:46 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:31:59 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:32:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:32:53 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:33:22 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
+--- Error: 2015-06-08 19:33:33 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+            (
+                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
+                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
+              PRIMARY KEY (`id_dishes`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+	code: 1075
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 19
+
+
+------------------------------------
+
