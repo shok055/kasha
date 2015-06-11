@@ -39,10 +39,9 @@
     <div class="row">
         <div class="col-xs-3"><img src="<?= Root('i/image/Kasha_iz_topora_2.jpg')?>">
             <div class="padding"><font size="6" face="Comic Sans MS">У меня есть :</div>
-            <div><button type="button" class="btn btn-custom">Курица</button></div>
-            <div><button type="button" class="btn btn-custom">Картошка</button></div>
-            <div><button type="button" class="btn btn-custom">Помидоры</button></div>
-            <div><button type="button" class="btn btn-custom">Зелень</button></div>
+            <?php foreach ($real_ingredients as $ingredient): ?>
+            <div><button type="button" class="btn btn-custom"><?=$ingredient['name']?></button></div>
+            <?php endforeach;?>
             <div><img src="<?= Root('i/image/Dash.jpg')?>"></div>
             <div><font size="4" face="Comic Sans MS">Время приготовления :</div>
             <div class="progress">

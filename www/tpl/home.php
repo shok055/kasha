@@ -47,17 +47,16 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <link rel="stylesheet" href="<?= Root('i/css/components/select2/select2.css')?>">
+        <script src="<?= Root('i/js/components/select2/select2.min.js')?>"></script>
+        <script src="<?= Root('i/js/controller/home.js')?>"></script>
+        <link rel="stylesheet" href="<?= Root('i/css/components/select2/select2-bootstrap.css')?>">
+
+
     </head>
 
 
     <div class="home-block">
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="<?= Root('js/jquery-1.11.2.min.js')?>"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-
-
-
         <div class="container">
             <div class="row">
                 <div class="col-xs-4"></div>
@@ -66,19 +65,25 @@
             </div>
             <div class="row">
                 <div class="col-xs-4"></div>
-                <div class="col-xs-4 text-center padding"><font size="15" face="Comic Sans MS">У меня есть :</div>
+                <div class="col-xs-4 text-center padding"><font size="15" face="Comic Sans MS">У меня есть :</font></div>
                 <div class="col-xs-4"></div>
             </div>
 
             <div class="row">
                 <div class="col-xs-3"></div>
                 <div class="col-xs-6 padding">
-                    <div class="input-group input-group_custom">
-				<span class="input-group-btn">
-				 <a href="<?= SiteRoot("menu")?>"><button class="btn btn-default" type="button">Найти</button></a>
-				</span>
-                        <input type="text" class="form-control" placeholder="Введите ингредиенты, которые у вас есть">
-                    </div>
+                    <form action="<?= Root('menu')?>" method="get">
+                        <div class="input-group input-group_custom">
+                            <span class="input-group-btn">
+                                <input type="submit" class="btn btn-default" type="button" value="Найти"/>
+                            </span>
+                            <select id="ingredients" name="ingredients[]" multiple class="form-control select2-multiple">
+                                <?php foreach ($ingredients as $ingredient):?>
+                                <option value="<?= $ingredient['id'] ?>"><?= $ingredient['name'] ?></option>
+                                <?php endforeach ?>
+                            </select>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-xs-3"></div>
             </div>

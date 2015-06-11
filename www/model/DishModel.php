@@ -23,10 +23,20 @@ class DishModel extends Model
             $this->table);
     }
 
-    public function getList()
+    /**
+     * @param null $ingredients
+     * @return mixed
+     */
+    public function getList($ingredients=NULL)
     {
+        if (count($ingredients)>0) {
+            $a="SELECT DISTINCT `id`,`name`,`description`,`timeout`,`img_url`,`rate`
+ FROM ?# AS dish INNER JOIN `dishes-ingredients` AS di ON di.`id_dishes`=dish.id AND di.`id_ingredients` IN(?a)";
+            return $this->db->select($a, $this->table, $ingredients);
+        } else {
+            return $this->db->select("SELECT * FROM ?#", $this->table);
+        }
 
-        return $this->db->select("SELECT * FROM ?#", $this->table);
     }
 
     public function Total()
