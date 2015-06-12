@@ -12,19 +12,25 @@ class PreparationModel extends Model
     {
         $this->db->query("CREATE TABLE IF NOT EXISTS ?#
             (
-                `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-              `img_url` varchar(255) DEFAULT NULL,
-              `description` text,
-              `number` int(10) unsigned NOT NULL AUTO_INCREMENT,
-              PRIMARY KEY (`id`)
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8",
+                `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                  `img_url` varchar(255) DEFAULT NULL,
+                  `description` text,
+                  `number` int(11) DEFAULT NULL,
+                  `dish_id` int(10) unsigned DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `dish_id` (`dish_id`),
+                  CONSTRAINT `preparation_ibfk_1` FOREIGN KEY (`dish_id`) REFERENCES `dishes` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8",
             $this->table);
     }
 
-    public function getList()
+    public function getList($dish_id=false)
     {
-
-        return $this->db->select("SELECT * FROM ?#", $this->table);
+        if ($dish_id) {
+            return $this->db->select("SELECT * FROM ?# WHERE dish_id = ?", $this->table, $dish_id);
+        } else {
+            return $this->db->select("SELECT * FROM ?#", $this->table);
+        }
     }
 
     public function Total()

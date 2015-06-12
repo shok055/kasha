@@ -7,7 +7,7 @@
  */
 
 $dish = new DishModel(Get('id'));
-$ihave = Get('ihave');
+$ihave = Get('ingredients');
 
 $ingredientsRelations = new Dishes_IngredietnsModel();
 $ingredientsModel = new IngredientsModel();
@@ -30,8 +30,5 @@ foreach($allIngridients as $itm){
         array_push($hasIngredients,$itm);
     }
 }
-
-
-
-//var_dump($ingredients);
-//$ingredients = $ingredientsModel.getForDish();
+$preparationModel=new PreparationModel();
+$steps=$preparationModel->getList($dish->id);

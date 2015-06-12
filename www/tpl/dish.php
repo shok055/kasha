@@ -36,6 +36,9 @@
             width: 100%;
             height: auto;
         }
+        .step img{
+            height:auto; width:auto; max-width:250px; max-height:250px;
+        }
 
     </style>
 </head>
@@ -74,13 +77,9 @@
             <?php foreach( $hasIngredients as $key => $ingredient ): ?>
                 <div><button type="button" class="btn btn-custom"><?=$ingredient['name']?></button></div>
             <?php endforeach ?>
-            <div><img src="<?= Root('i/image/Dash.jpg')?>"></div>
-            <div><font size="4" face="Comic Sans MS">Время приготовления :</div>
-            <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                    <span class="sr-only">60% Complete (warning)</span>
-                </div>
-            </div>
+
+
+
         </div>
         <div class="col-xs-9">
             <div class="row">
@@ -93,43 +92,32 @@
                     <div class="center"><h1>Приготовление<h1></div>
                 </div>
             </div>
-            <div class="row">
+            <?php foreach($steps as $number=>$step):?>
+            <div class="row step">
                 <div class="col-xs-4">
-                    <div><img src="<?= Root('i/image/square_2.jpg')?>"></div>
+                    <div><img src="<?= $step["img_url"] ?>"></div>
                 </div>
                 <div class="col-xs-8 padding">
-                    <p><h3>Шаг 1</h3></p>
+                    <p>
+                        <h3>Шаг <?= $number+1?></h3>
+                        <?= $step["description"] ?>
+                    </p>
                 </div>
             </div>
+            <?php endforeach;?>
             <div class="row">
-                <div class="col-xs-4 padding">
-                    <div><img src="<?= Root('i/image/square_2.jpg')?>"></div>
-                </div>
-                <div class="col-xs-8 padding">
-                    <p><h3>Шаг 2</h3></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-4 padding">
-                    <div><img src="<?= Root('i/image/square_2.jpg')?>"></div>
-                </div>
-                <div class="col-xs-8 padding">
-                    <p><h3>Шаг 3</h3></p>
+
+                <div class="col-xs-8">
+                    <div><img src="<?= Root('i/image/Dash_2.jpg')?>"></div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-3"></div>
-            <div class="col-xs-9">
-                <div><img src="<?= Root('i/image/Dash_2.jpg')?>"></div>
-            </div>
-        </div>
+
     </div>
     <div class="row">
         <div class="col-xs-12 center padding">
-            <span class="custom-icon"><i class="fa fa-facebook-square"></i></span>
-            <span class="custom-icon"><i class="fa fa-twitter-square"></i></span>
-            <span class="custom-icon custom-icon_vk"><i class="fa fa-vk"></i></span>
+            <span class="custom-icon"><a href="http://www.facebook.com/sharer.php?u=104.245.39.17&t=Каша из топора"><i class="fa fa-facebook-square"></i></a></span>
+            <span class="custom-icon"><a href="http://twitter.com/home?status=104.245.39.17"><i class="fa fa-twitter-square"></i></a></span>
         </div>
     </div>
 

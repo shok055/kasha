@@ -3,7 +3,10 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/www/i/js/controller/home.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/src/menu.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/src/menu_ajax.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/tpl/create_dish.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/tpl/dish.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/tpl/menu.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/tpl/menu_ajax.php" charset="UTF-8" />
   </component>
 </project>

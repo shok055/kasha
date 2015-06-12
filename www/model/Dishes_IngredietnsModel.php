@@ -11,11 +11,13 @@ class Dishes_IngredietnsModel extends Model
     public function CreateTable()
     {
         $this->db->query("CREATE TABLE IF NOT EXISTS ?#
-            (
-                `id_dishes` int(10) unsigned NOT NULL AUTO_INCREMENT,
-                `id_ingredietns` int(10) unsigned NOT NULL AUTO_INCREMENT,
-              PRIMARY KEY (`id_dishes`)
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8",
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8",
             $this->table);
     }
 

@@ -100,9 +100,8 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 center">
-                    <span class="custom-icon"><i class="fa fa-facebook-square"></i></span>
-                    <span class="custom-icon"><i class="fa fa-twitter-square"></i></span>
-                    <span class="custom-icon custom-icon_vk"><i class="fa fa-vk"></i></span>
+                    <span class="custom-icon"><a href="http://www.facebook.com/sharer.php?u=104.245.39.17&t=Каша из топора"><i class="fa fa-facebook-square"></i></a></span>
+                    <span class="custom-icon"><a href="http://twitter.com/home?status=104.245.39.17"><i class="fa fa-twitter-square"></i></a></span>
                 </div>
             </div>
 

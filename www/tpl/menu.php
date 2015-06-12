@@ -30,9 +30,18 @@
             width:400px;
             margin: 0 auto;
         }
+        #ex1Slider .slider-handle {
+            background:orange;
+        }
 
     </style>
     <link rel="stylesheet" href="<?= Root('i/css/menu-item.css')?>">
+    <link rel="stylesheet" href="<?= Root('i/css/components/bootstrap-slider/bootstrap-slider.min.css')?>">
+    <script src="<?= Root('i/js/components/bootstrap-slider/bootstrap-slider.min.js')?>"></script>
+    <script>
+        ingredients=<?= json_encode($ingredients)?>;
+    </script>
+    <script src="<?= Root('i/js/controller/menu.js')?>"></script>
 </head>
 
 <div class="content">
@@ -44,18 +53,15 @@
             <?php endforeach;?>
             <div><img src="<?= Root('i/image/Dash.jpg')?>"></div>
             <div><font size="4" face="Comic Sans MS">Время приготовления :</div>
-            <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                    <span class="sr-only">60% Complete (warning)</span>
-                </div>
-            </div>
+            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="120" data-slider-step="1" data-slider-value="15"/>
+
         </div>
         <div class="col-xs-8">
-            <div class="row">
+            <div class="row js-ajax-reload">
                 <?php foreach($items as $number => $item): ?>
                     <div class="col-xs-4">
                         <div class="thumbnail menu-item">
-                            <a href="dish?id=<?= $item['id'] ?>">
+                            <a href="dish?id=<?= $item['id'].genIngredients($ingredients) ?>">
                                 <?php if($item['img_url']): ?>
                                     <img src="<?= $item['img_url']?>">
                                 <?php else: ?>
@@ -63,8 +69,8 @@
                                 <?php endif; ?>
                             </a>
                             <div class="caption">
-                                <h3><?= $item['name'] ?> №<?= $number ?></h3>
-                                <p class="btn btn-custom" role="button">5 мин</p>
+                                <h3><?= $item['name'] ?></h3>
+                                <p class="btn btn-custom" role="button"><?= $item["timeout"]?> мин</p>
                             </div>
                         </div>
                     </div>
@@ -74,9 +80,8 @@
     </div>
     <div class="row">
         <div class="col-xs-12 center">
-            <span class="custom-icon"><i class="fa fa-facebook-square"></i></span>
-            <span class="custom-icon"><i class="fa fa-twitter-square"></i></span>
-            <span class="custom-icon custom-icon_vk"><i class="fa fa-vk"></i></span>
+            <span class="custom-icon"><a href="http://www.facebook.com/sharer.php?u=104.245.39.17&t=Каша из топора"><i class="fa fa-facebook-square"></i></a></span>
+            <span class="custom-icon"><a href="http://twitter.com/home?status=104.245.39.17"><i class="fa fa-twitter-square"></i></a></span>
         </div>
     </div>
 </div>
