@@ -35,6 +35,12 @@
                 width:400px;
                 margin: 0 auto;
             }
+            .btn.btn-color{
+                background: orange;
+            }
+            .no-margin {
+                margin: 0;
+            }
 
         </style>
         <!-- Bootstrap -->
@@ -65,7 +71,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-4"></div>
-                <div class="col-xs-4 text-center padding"><font size="15" face="Comic Sans MS">У меня есть :</font></div>
+                <div class="col-xs-4 text-center padding"><font size="15">У меня есть :</font></div>
                 <div class="col-xs-4"></div>
             </div>
 
@@ -75,7 +81,7 @@
                     <form action="<?= Root('menu')?>" method="get">
                         <div class="input-group input-group_custom">
                             <span class="input-group-btn">
-                                <input type="submit" class="btn btn-default" type="button" value="Найти"/>
+                                <input type="submit" class="btn btn-default btn-color no-margin" type="button" value="Найти"/>
                             </span>
                             <select id="ingredients" name="ingredients[]" multiple class="form-control select2-multiple">
                                 <?php foreach ($ingredients as $ingredient):?>
@@ -88,16 +94,7 @@
                 <div class="col-xs-3"></div>
             </div>
 
-            <div class="row">
-                <div class="col-xs-3"></div>
-                <div class="col-xs-6 padding center">
-                    <button type="button" class="btn btn-custom">Курица</button>
-                    <button type="button" class="btn btn-custom">Картошка</button>
-                    <button type="button" class="btn btn-custom">Помидоры</button>
-                    <button type="button" class="btn btn-custom">Зелень</button>
-                </div>
-                <div class="col-xs-3"></div>
-            </div>
+
             <div class="row">
                 <div class="col-xs-12 center">
                     <span class="custom-icon"><a href="http://www.facebook.com/sharer.php?u=104.245.39.17&t=Каша из топора"><i class="fa fa-facebook-square"></i></a></span>

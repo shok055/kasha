@@ -10,8 +10,11 @@
             </a>
             <div class="caption">
                 <h3><?= $item['name'] ?></h3>
-                <p class="btn btn-custom" role="button"><?= $item["timeout"]?> мин</p>
+                <p class="btn btn-custom btn-color" role="button"><?= $item["timeout"]?> мин</p>
             </div>
         </div>
     </div>
+    <?php if (($number+1) % 3 == 0): ?>
+        </div><div class="row">
+    <?php endif;?>
 <?php endforeach; ?>

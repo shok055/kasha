@@ -33,6 +33,9 @@
         #ex1Slider .slider-handle {
             background:orange;
         }
+        .btn.btn-color{
+            background: orange;
+        }
 
     </style>
     <link rel="stylesheet" href="<?= Root('i/css/menu-item.css')?>">
@@ -47,13 +50,13 @@
 <div class="content">
     <div class="row">
         <div class="col-xs-3"><img src="<?= Root('i/image/Kasha_iz_topora_2.jpg')?>">
-            <div class="padding"><font size="6" face="Comic Sans MS">У меня есть :</div>
+            <div class="padding"><font size="6">У меня есть :</div>
             <?php foreach ($real_ingredients as $ingredient): ?>
-            <div><button type="button" class="btn btn-custom"><?=$ingredient['name']?></button></div>
+            <div><button type="button" class="btn btn-custom btn-color"><?=$ingredient['name']?></button></div>
             <?php endforeach;?>
             <div><img src="<?= Root('i/image/Dash.jpg')?>"></div>
-            <div><font size="4" face="Comic Sans MS">Время приготовления :</div>
-            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="120" data-slider-step="1" data-slider-value="15"/>
+            <div><font size="4">Время приготовления :</div>
+            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="120" data-slider-step="1" data-slider-value="25"/>
 
         </div>
         <div class="col-xs-8">
@@ -70,10 +73,13 @@
                             </a>
                             <div class="caption">
                                 <h3><?= $item['name'] ?></h3>
-                                <p class="btn btn-custom" role="button"><?= $item["timeout"]?> мин</p>
+                                <p class="btn btn-custom btn-color" role="button"><?= $item["timeout"]?> мин</p>
                             </div>
                         </div>
                     </div>
+                    <?php if (($number+1) % 3 == 0): ?>
+                        </div><div class="row">
+                    <?php endif;?>
                 <?php endforeach; ?>
             </div>
         </div>

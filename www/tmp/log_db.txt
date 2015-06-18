@@ -356,3 +356,2505 @@
 
 ------------------------------------
 
+--- Error: 2015-06-15 08:54:41 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-15 09:01:44 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-15 09:27:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-15 09:27:13 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 21:25:48 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 21:34:26 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 21:49:45 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 22:12:22 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 22:36:10 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 22:37:36 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 22:38:13 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 22:39:41 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 22:40:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-17 22:42:23 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:29:14 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:30:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:31:36 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:32:01 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:32:16 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:32:17 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:32:37 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:33:13 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:33:32 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:34:03 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:41:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '2', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '7', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '10', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '13', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '14', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '15', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '16', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '18', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '19', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:02 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('1', '20', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:47:46 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:51:26 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:52:42 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:52:58 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:55:57 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 21:58:13 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '2', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '6', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '7', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '11', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '13', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '15', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '16', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '19', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '20', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '21', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '22', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:02:55 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('2', '23', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:03:11 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:05:24 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:07:13 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '1', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '2', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '3', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '6', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '11', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '24', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '25', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:12:35 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('4', '26', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:13:37 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:14:09 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('7', '6', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('7', '11', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('7', '15', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('7', '19', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('7', '22', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('7', '27', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:56 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('7', '28', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:15:58 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:17:49 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:18:27 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:18:43 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:19:37 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('8', '18', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('8', '19', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('8', '29', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('8', '30', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:16 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('8', '31', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:26:42 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:28:26 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:30:32 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '4', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '6', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '10', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '11', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '19', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '22', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '23', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '32', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '33', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '34', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '35', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:08 ---
+
+	query: INSERT INTO
+                                                `dishes-ingredients`(`id_dishes`, `id_ingredients`, `id`)
+                                            VALUES
+                                                ('9', '36', '0')
+	message: Unknown column 'id' in 'field list'
+	code: 1054
+	context: Z:\home\kasha\www\model\Model.php line 141
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:34:17 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+
+--- Error: 2015-06-18 22:35:09 ---
+
+	query: CREATE TABLE IF NOT EXISTS `dishes-ingredients`
+                `id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` int(10) unsigned DEFAULT NULL,
+                  KEY `id_dishes` (`id_dishes`),
+                  KEY `id_ingredients` (`id_ingredients`),
+                  CONSTRAINT `dishes@002dingredients_ibfk_1` FOREIGN KEY (`id_dishes`) REFERENCES `dishes` (`id`) ON DELETE CASCADE,
+                  CONSTRAINT `dishes@002dingredients_ibfk_2` FOREIGN KEY (`id_ingredients`) REFERENCES `ingredients` (`id`) ON DELETE CASCADE
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	message: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`id_dishes` int(10) unsigned DEFAULT NULL,
+                  `id_ingredients` i' at line 2
+	code: 1064
+	context: Z:\home\kasha\www\model\Dishes_IngredietnsModel.php line 21
+
+
+------------------------------------
+

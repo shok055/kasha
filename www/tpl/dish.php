@@ -39,6 +39,9 @@
         .step img{
             height:auto; width:auto; max-width:250px; max-height:250px;
         }
+        .btn.btn-color {
+            background:orange;
+        }
 
     </style>
 </head>
@@ -46,7 +49,7 @@
 <div class="content">
     <div class="row">
         <div class="col-xs-3"><img src="<?= Root('i/image/Kasha_iz_topora_2.jpg')?>">
-            <div class="padding"><font size="6" face="Comic Sans MS">У меня есть :</div>
+            <div class="padding"><font size="6">У меня есть :</div>
         </div>
         <div class="col-xs-9">
             <div class="row">
@@ -55,7 +58,7 @@
                 </div>
                 <div class="col-xs-6 padding">
                     <p><h3><?= $dish->name ?></h3></p>
-                    <p class="btn btn-custom" role="button"><?= $dish->timeout ?> мин</p>
+                    <p class="btn btn-custom btn-color" role="button"><?= $dish->timeout ?> мин</p>
                     <p class="padding"><em><h5>Ингредиенты :<h5></em></p>
                     <p class="padding">
                         <?php foreach( $ingredients as $key => $ingredient ): ?>
@@ -75,7 +78,7 @@
     <div class="row">
         <div class="col-xs-3">
             <?php foreach( $hasIngredients as $key => $ingredient ): ?>
-                <div><button type="button" class="btn btn-custom"><?=$ingredient['name']?></button></div>
+                <div><button type="button" class="btn btn-custom btn-color"><?=$ingredient['name']?></button></div>
             <?php endforeach ?>
 
 
