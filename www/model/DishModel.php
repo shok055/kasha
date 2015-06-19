@@ -27,7 +27,7 @@ class DishModel extends Model
      * @param null $ingredients
      * @return mixed
      */
-    public function getList($ingredients=NULL, $timeout=15)
+    public function getList($ingredients=NULL, $timeout=40)
     {
         if (count($ingredients)>0) {
             $a="SELECT DISTINCT `id`,`name`,`description`,`timeout`,`img_url`,`rate`

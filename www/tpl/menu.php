@@ -56,7 +56,7 @@
             <?php endforeach;?>
             <div><img src="<?= Root('i/image/Dash.jpg')?>"></div>
             <div><font size="4">Время приготовления :</div>
-            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="120" data-slider-step="1" data-slider-value="25"/>
+            <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="120" data-slider-step="1" data-slider-value="40"/>
 
         </div>
         <div class="col-xs-8">
